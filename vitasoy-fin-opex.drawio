@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T03:49:13.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aZKySjJOFQbQs5w00NBB" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T03:57:43.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="P7AclwOLjTJzAzLBepGS" version="22.1.17" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3959" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_QuhE1lit2_vzAkDeuf0-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-90" width="330" height="650" as="geometry" />
+          <mxGeometry x="-700" y="-90" width="380" height="650" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-2127" y="-90" width="1347" height="650" as="geometry" />
@@ -140,8 +140,8 @@
         <mxCell id="_QuhE1lit2_vzAkDeuf0-61" value="job_trsf_dws_fin_pft_cntr_fytd_di_8397" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2030" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心YTD GOV&amp;nbsp;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="-170" width="340" height="30" as="geometry" />
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;(3)&amp;nbsp;Bdgt_New: 利润中心 客户 sku YTD GOV&amp;nbsp;/&amp;nbsp;利润中心产品 Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-60" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
