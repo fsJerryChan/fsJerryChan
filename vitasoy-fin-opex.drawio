@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T03:13:56.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_RB24Kk5o8xppVmzPx6z" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T03:18:07.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-_lMKFl2gEY7CzfzehYG" version="22.1.17" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
-    <mxGraphModel dx="3269" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3269" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="-60" width="780" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="345" width="680" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" width="330" height="250" as="geometry" />
+          <mxGeometry x="-1300" y="-5" width="330" height="250" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-1" value="ads_fin_opex_cf_rpt_df&lt;br&gt;(销售财务报表 Opex 指标应用表)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="340" width="170" height="60" as="geometry" />
@@ -39,20 +45,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-8" value="dim_fin_sub_brnd_mapping_df&lt;br&gt;(销售财务opex新品映射表)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="30" width="190" height="60" as="geometry" />
+          <mxGeometry x="-1230" y="25" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dim_prd_product_df&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;(销售财务opex新品映射表)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="150" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="_QuhE1lit2_vzAkDeuf0-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-930" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-17" value="LEFT JOIN：sku_id&lt;span style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;不在新品结果集中的则为旧品&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_QuhE1lit2_vzAkDeuf0-16">
-          <mxGeometry x="0.0694" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-1230" y="145" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="_QuhE1lit2_vzAkDeuf0-13" target="_QuhE1lit2_vzAkDeuf0-18">
           <mxGeometry relative="1" as="geometry" />
@@ -66,25 +62,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;dws_fin_inv_ord_dtl_dly_df&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(INV开票信息开票时间日汇总表,to b)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="320" width="220" height="60" as="geometry" />
+          <mxGeometry x="-1090" y="385" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-15" value="获取新品" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1100" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1300" y="-5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-18" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;dim_cst_customer_df&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(客户维度表)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1390" y="320" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1410" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1450" y="385" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-20" value="LEFT JOIN：cust_id&lt;br&gt;带出利润中心、大区&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1120" y="329.9957142857142" as="geometry" />
+          <mxGeometry x="-1180" y="394.9957142857142" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-22" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1037" y="460" width="210" height="40" as="geometry" />
+          <mxGeometry x="-1097" y="525" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;dws_fin_dtc_inv_dly_df&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(客户产品DTC日汇总表,to c)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1028" y="440" width="217" height="60" as="geometry" />
+          <mxGeometry x="-1088" y="505" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="_QuhE1lit2_vzAkDeuf0-26" target="_QuhE1lit2_vzAkDeuf0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-28" value="LEFT JOIN：sku_id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;不在新品结果集中的则为旧品&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_QuhE1lit2_vzAkDeuf0-27">
+          <mxGeometry x="0.052" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（新品/旧品）&lt;br&gt;指标：YTD 的 GSV" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="-60" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
