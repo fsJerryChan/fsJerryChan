@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T09:42:51.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5q3h5KfbpgZLhdiAu9iq" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:42:49.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qIAnjkINhdp58EwyNxKW" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
-    <mxGraphModel dx="3959" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3915" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,7 +140,7 @@
         <mxCell id="_QuhE1lit2_vzAkDeuf0-61" value="job_trsf_dws_fin_pft_cntr_fytd_di_8397" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2030" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;(3)&amp;nbsp;Bdgt_New: 利润中心 客户 sku YTD GOV&amp;nbsp;/&amp;nbsp;利润中心产品 Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;* Pft sku Budget / 所有 Sku Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-690" y="-60" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
