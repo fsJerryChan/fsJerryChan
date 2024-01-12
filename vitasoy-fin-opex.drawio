@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T14:42:49.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qIAnjkINhdp58EwyNxKW" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:49:39.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IeJOQElupOINSrz6sKCz" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3915" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_QuhE1lit2_vzAkDeuf0-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="-90" width="380" height="650" as="geometry" />
+          <mxGeometry x="-310" y="-105" width="380" height="650" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-2127" y="-90" width="1347" height="650" as="geometry" />
+          <mxGeometry x="-2127" y="-90" width="1747" height="650" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_QuhE1lit2_vzAkDeuf0-29" target="_QuhE1lit2_vzAkDeuf0-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
         <mxCell id="_QuhE1lit2_vzAkDeuf0-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;dws_fin_dtc_inv_dly_df&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(客户产品DTC日汇总表,to c)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1164.03" y="180" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（Inv_Old/&lt;span style=&quot;color: rgb(112, 112, 112); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;Inv_New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;指标：全国新品GOV,大区新品GOV,利润中心新品GOV,全国旧品GOV,大区旧品GOV,利润中心旧品GOV,大区客户产品销售额" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（Inv_Old/&lt;span style=&quot;color: rgb(112, 112, 112); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;Inv_New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;指标：全国新品GOV,大区新品GOV,利润中心新品GOV,全国旧品GOV,大区旧品GOV,利润中心旧品GOV,大区客户产品销售额&lt;br&gt;新品统计到&amp;nbsp; sku" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1586.03" y="-40" width="676.03" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -141,7 +141,7 @@
           <mxGeometry x="-2030" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;* Pft sku Budget / 所有 Sku Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="-60" width="370" height="80" as="geometry" />
+          <mxGeometry x="-300" y="-90" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
