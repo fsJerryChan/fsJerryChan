@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T14:49:39.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IeJOQElupOINSrz6sKCz" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T15:12:51.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="33JYcD2exG9LyInvpJPl" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3915" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-310" y="-105" width="380" height="650" as="geometry" />
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-64" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="-105" width="380" height="575" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-2127" y="-90" width="1747" height="650" as="geometry" />
@@ -33,13 +33,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dws_fin_opex_pft_cntr_shr_rslt_di&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;(Opex费用明细利润中心分摊结果汇总表)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="170" width="290" height="60" as="geometry" />
+          <mxGeometry x="840" y="120" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_QuhE1lit2_vzAkDeuf0-3" target="_QuhE1lit2_vzAkDeuf0-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;dws_fin_opex_pft_cntr_shr_rate_di&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;(&lt;/font&gt;Opex费用明细利润中心比例表&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="170" width="290" height="60" as="geometry" />
+          <mxGeometry x="110" y="470" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_QuhE1lit2_vzAkDeuf0-6" target="_QuhE1lit2_vzAkDeuf0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;dws_fin_pft_cntr_fytd_di&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;(利润中心财年累计汇总表&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 255, 254);&quot;&gt;)&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="160" width="250" height="70" as="geometry" />
+          <mxGeometry x="-260" y="147.5" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="_QuhE1lit2_vzAkDeuf0-13" target="_QuhE1lit2_vzAkDeuf0-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +79,7 @@
           <mxGeometry x="-1164.03" y="180" width="217" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（Inv_Old/&lt;span style=&quot;color: rgb(112, 112, 112); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;Inv_New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;指标：全国新品GOV,大区新品GOV,利润中心新品GOV,全国旧品GOV,大区旧品GOV,利润中心旧品GOV,大区客户产品销售额&lt;br&gt;新品统计到&amp;nbsp; sku" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1586.03" y="-40" width="676.03" height="40" as="geometry" />
+          <mxGeometry x="-1586.03" y="-30" width="676.03" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2110" y="160" width="330" height="250" as="geometry" />
@@ -137,11 +137,20 @@
         <mxCell id="_QuhE1lit2_vzAkDeuf0-53" value="LEFT JOIN：sku_id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;不在新品结果集中的则为旧品&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1680" y="390.002857142857" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-61" value="job_trsf_dws_fin_pft_cntr_fytd_di_8397" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-61" value="&lt;b&gt;job_trsf_dws_fin_pft_cntr_fytd_di_8397&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2030" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;* Pft sku Budget / 所有 Sku Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-66" value="&lt;b&gt;job_trsf_dws_fin_opex_pft_cntr_shr_rate_di_7484&lt;/b&gt;&lt;br&gt;&lt;br&gt;判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;* Pft sku Budget / 所有 Sku Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-300" y="-90" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a7bpl2SDCqoI-if7uYYk-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dws_fin_opex_info_di&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;(Opex费用明细汇总表（分摊前）)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="310" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7bpl2SDCqoI-if7uYYk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="510" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a7bpl2SDCqoI-if7uYYk-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dws_fin_cf_gl_dtl_dly_di&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;(销售财务指标gl科目表)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="550" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
