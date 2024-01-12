@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T03:33:25.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EY8_PFv6CCaaz7lvdE08" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T03:40:18.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="B965VURRMWgV4JyOJQLw" version="22.1.17" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="4096" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,8 +67,8 @@
         <mxCell id="_QuhE1lit2_vzAkDeuf0-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;dws_fin_dtc_inv_dly_df&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(客户产品DTC日汇总表,to c)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1164.03" y="180" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（Inv_Old/&lt;span style=&quot;color: rgb(112, 112, 112); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;Inv_New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;指标：新品全国GOV，新品大区GOV，新品利润中心GOV，旧品全国GOV，旧品大区GOV，旧品利润中心GOV" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1586.03" y="-40" width="630" height="40" as="geometry" />
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-30" value="维度：利润中心、大区、客户、sku、sku类型（Inv_Old/&lt;span style=&quot;color: rgb(112, 112, 112); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;Inv_New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;指标：全国新品GOV,大区新品GOV,利润中心新品GOV,全国旧品GOV,大区旧品GOV,利润中心旧品GOV,大区客户产品销售额" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1586.03" y="-40" width="676.03" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2110" y="160" width="330" height="250" as="geometry" />
