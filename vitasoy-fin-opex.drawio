@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T02:37:46.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="21.2.3" etag="ZVbXkJtH3nFHzt5x81rF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T02:46:33.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zhfdP4C0aYC0iCeP7pwF" version="22.1.17" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
-    <mxGraphModel>
+    <mxGraphModel dx="1346" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_QuhE1lit2_vzAkDeuf0-1" value="ads_fin_opex_cf_rpt_df&lt;br&gt;(销售财务报表 Opex 指标应用表)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
