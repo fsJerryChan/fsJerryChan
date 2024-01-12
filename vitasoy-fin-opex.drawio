@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T15:21:19.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XQpNvDKBVLjCgw4-ruqI" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T15:27:02.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6D6a5F5_5Q0POSCg7OHC" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3676" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
           <mxGeometry x="840" y="120" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_QuhE1lit2_vzAkDeuf0-3" target="_QuhE1lit2_vzAkDeuf0-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7bpl2SDCqoI-if7uYYk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="_QuhE1lit2_vzAkDeuf0-3" target="a7bpl2SDCqoI-if7uYYk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_QuhE1lit2_vzAkDeuf0-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;dws_fin_opex_pft_cntr_shr_rate_di&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;(&lt;/font&gt;Opex费用明细利润中心比例表&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -165,6 +168,9 @@
         </mxCell>
         <mxCell id="a7bpl2SDCqoI-if7uYYk-5" value="&lt;b&gt;job_trsf_dws_fin_opex_info_di_1064&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a7bpl2SDCqoI-if7uYYk-8" value="&lt;b&gt;job_trsf_dws_fin_opex_pft_cntr_shr_rslt_di_8164&lt;/b&gt;&lt;br&gt;&lt;br&gt;判断 ytd_Type，计算 分摊比率:&lt;br&gt;(1) Inv_Old: 利润中心 客户 sku YTD GOV / 利润中心旧品YTD GOV&lt;br&gt;(2) Inv_New:&amp;nbsp; 利润中心 客户 sku YTD GOV / 利润中心新品YTD GOV&lt;br&gt;* Pft sku Budget / 所有 Sku Budget" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-90" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
