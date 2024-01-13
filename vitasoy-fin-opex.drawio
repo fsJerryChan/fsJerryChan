@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T09:34:00.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ADYa4uqoveMoo0iD7Nso" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T09:44:39.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="k2StNP8rIjkkkdgU9PLR" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3915" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,46 +16,19 @@
         <mxCell id="uwbBY8es93_aKWaB9dcv-7" value="Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="-1820" y="870" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-11" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="-2090" y="960" width="520" height="126" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="uwbBY8es93_aKWaB9dcv-11" source="uwbBY8es93_aKWaB9dcv-16" target="uwbBY8es93_aKWaB9dcv-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-13" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="uwbBY8es93_aKWaB9dcv-11" source="uwbBY8es93_aKWaB9dcv-16" target="uwbBY8es93_aKWaB9dcv-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="uwbBY8es93_aKWaB9dcv-11" source="uwbBY8es93_aKWaB9dcv-16" target="uwbBY8es93_aKWaB9dcv-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-15" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="uwbBY8es93_aKWaB9dcv-11" source="uwbBY8es93_aKWaB9dcv-16" target="uwbBY8es93_aKWaB9dcv-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-16" value="Central Idea" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="160" y="60" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-17" value="Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="320" y="40" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-18" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="320" y="80" width="72" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-19" value="Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="20" y="40" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-20" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="20" y="80" width="72" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="uwbBY8es93_aKWaB9dcv-23" source="uwbBY8es93_aKWaB9dcv-17" parent="uwbBY8es93_aKWaB9dcv-11">
+        <mxCell id="uwbBY8es93_aKWaB9dcv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=default;endArrow=none;endFill=0;entryX=0.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uwbBY8es93_aKWaB9dcv-36" target="uwbBY8es93_aKWaB9dcv-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1830" y="1040" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1400" y="740" />
+              <mxPoint x="-1400" y="552" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="uwbBY8es93_aKWaB9dcv-23" value="Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="uwbBY8es93_aKWaB9dcv-11">
-          <mxGeometry x="440" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uwbBY8es93_aKWaB9dcv-36" value="&lt;b&gt;dws_fin_opex_pft_cntr_shr_rslt_di&lt;/b&gt;&lt;br&gt;(Opex费用明细利润中心分摊结果汇总表)&lt;br&gt;&lt;br&gt;&lt;b&gt;job&lt;/b&gt;：&lt;br&gt;job_trsf_dws_fin_opex_pft_cntr_shr_rslt_di_8164&lt;br&gt;&lt;br&gt;&lt;b&gt;计算过程：&lt;/b&gt;&lt;br&gt;(1) 待摊金额 * 新品分摊比例，计算新品 pft cust sku 分摊金额&lt;br&gt;(2) 总分摊金额 - 新品分摊金额，计算老品分摊金额&lt;br&gt;(3) 老品分摊金额 * 老品分摊比例，计算 老品 pft cust sku 分摊金额" style="whiteSpace=wrap;html=1;rounded=1;align=left;spacingTop=0;spacing=15;" vertex="1" parent="1">
           <mxGeometry x="-1820" y="650" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uwbBY8es93_aKWaB9dcv-38" value="&lt;b&gt;dws_fin_opex_pft_cntr_shr_rate_di&lt;/b&gt;&lt;br&gt;(Opex费用明细利润中心比例表)&lt;br&gt;&lt;br&gt;&lt;b&gt;job:&lt;br&gt;&lt;/b&gt;job_trsf_dws_fin_opex_pft_cntr_shr_rate_di_7484&lt;br&gt;&lt;br&gt;&lt;b&gt;计算过程：&lt;/b&gt;&lt;br&gt;(1) 老品分摊比率 = pft cust sku ytd gsv / pft ytd gsv&lt;br&gt;(2) 新品分摊比率 = pft cust sku ytd gsv/pft sku ytd gsv * sku ytd budget / 所有sku ytd budget&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=1;spacingTop=0;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="460" width="350" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
