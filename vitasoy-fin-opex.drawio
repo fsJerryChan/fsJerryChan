@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T10:55:35.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="v66bmtW-ajqTo0rjz4zq" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T10:58:58.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HzT7HRR--vVCyA1fkON_" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3915" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,6 +13,9 @@
               <mxPoint x="-1820" y="710" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uwbBY8es93_aKWaB9dcv-73" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="uwbBY8es93_aKWaB9dcv-6" target="uwbBY8es93_aKWaB9dcv-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwbBY8es93_aKWaB9dcv-6" value="&lt;b&gt;ads_fin_opex_cf_rpt_df&lt;/b&gt;&lt;br&gt;(销售财务报表 Opex 指标应用表)" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-2090" y="780" width="210" height="50" as="geometry" />
@@ -82,6 +85,9 @@
         </mxCell>
         <mxCell id="uwbBY8es93_aKWaB9dcv-66" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;dws_fin_opex_info_di&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Opex费用明细汇总表（分摊前）)" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="1200" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uwbBY8es93_aKWaB9dcv-72" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;dws_fin_opex_adj_shr_rslt_di&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Opex费用明细调整数分摊汇总表)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;job&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;：&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;job_trsf_dws_fin_opex_adj_shr_rslt_di_4588&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;处理过程：&lt;br&gt;&lt;/b&gt;(1) 从 Opex费用明细汇总表提取不能分摊到利润中心的记录&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;(2) 待摊金额 * 新品分摊比例，计算新品 pft cust sku 分摊金额&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;(3) 总分摊金额 - 新品分摊金额，计算老品分摊金额&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;(4) 老品分摊金额 * 老品分摊比例，计算 老品 pft cust sku 分摊金额&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="1300" width="400" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
