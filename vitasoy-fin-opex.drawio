@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T11:18:23.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YLsjAz3tDa7YTntfMhI1" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T11:27:32.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CVtC16xdxpDSqLWd0n-T" version="22.1.18" type="github">
   <diagram name="第 1 页" id="qXMQpcFjAb9PFIhQsB_X">
     <mxGraphModel dx="3915" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,6 +112,9 @@
         </mxCell>
         <mxCell id="uwbBY8es93_aKWaB9dcv-82" value="&lt;b&gt;ods_ftp_fin_opex_fadj_df&lt;br&gt;&lt;/b&gt;(Final 调整数)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;job&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;：&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;job_imp_ods_ftp_fin_opex_fadj_df_5319&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;处理过程：&lt;br&gt;&lt;/b&gt;从 ftp 同步 Final Adjust 数" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="-1820" y="1575" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uwbBY8es93_aKWaB9dcv-84" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Opex 模块简介&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;1 计算运营费用的分摊结果，包括利润中心分摊结果、全国分摊结果、调整数分摊结果&lt;br&gt;2 Final 调整数直接从FTP同步，不需要分摊&lt;br&gt;3 分摊过程：&lt;br&gt;&lt;br&gt;（1）计算新品/老品 sku budget 比例&amp;nbsp; = sku ytd budget / all sku ytd budget&lt;br&gt;（2）从总账提取科目为 Opex 的费用明细，并合计为待分摊数&lt;br&gt;（3）计算新品分摊费用 = 待分摊数 * 新品 sku ytd budget 比例" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2360" y="390" width="470" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
