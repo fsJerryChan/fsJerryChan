@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:41:12.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="LW36d6ml5l-OYTye911o" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T04:07:30.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jCMgd9WruXsGocu4A6G_" version="22.1.18" type="github">
   <diagram name="第 1 页" id="7eUpTHx11vVFpNqRn2nn">
-    <mxGraphModel>
+    <mxGraphModel dx="3413" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3c83Wh0yh_IiP0X6-Nth-12" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="3c83Wh0yh_IiP0X6-Nth-9" target="3c83Wh0yh_IiP0X6-Nth-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3c83Wh0yh_IiP0X6-Nth-9" value="&lt;b&gt;ads_trs_sal_dlr_ship_df&lt;/b&gt;&lt;br&gt;(销售Kpi经销商Shipment)&lt;br&gt;&lt;br&gt;&lt;b&gt;job:&lt;/b&gt;&lt;br&gt;job_trsf_ads_trs_sal_dlr_ship_df_8243&lt;br&gt;&lt;br&gt;&lt;b&gt;处理过程：&lt;/b&gt;&lt;br&gt;dws_trs_dn_ord_dtl_dly_df、客户 及 产品主数据" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=15;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="290" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3c83Wh0yh_IiP0X6-Nth-11" value="&lt;b&gt;job_trsf_dws_trs_dn_ord_dtl_dly_df_7378&lt;/b&gt;&lt;br&gt;(DN指标发货时间天汇总表)&lt;br&gt;&lt;br&gt;&lt;b&gt;job:&lt;/b&gt;&lt;br&gt;job_trsf_dws_trs_dn_ord_dtl_dly_df_7378&lt;br&gt;&lt;br&gt;&lt;b&gt;处理过程：&lt;/b&gt;&lt;br&gt;从DN 物流信息明细&amp;nbsp;dwd_trs_dn_ord_dtl_df&amp;nbsp; 统计 sale out 金额、订单数等信息" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=15;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;" vertex="1" parent="1">
+          <mxGeometry y="290" width="490" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
