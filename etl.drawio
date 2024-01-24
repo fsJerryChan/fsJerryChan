@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T06:30:48.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7_QsGa5NoGxUdPwYCsiu" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T06:36:05.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Pp9lguUo5I3YkX29J2m3" version="23.0.0" type="github">
   <diagram name="第 1 页" id="-EShnu_tk9d9TIDoHzpz">
     <mxGraphModel dx="1216" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="OW2NwJiljSmGnzwjPQtV-25" value="DWD&lt;br&gt;(Data ware detail)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OW2NwJiljSmGnzwjPQtV-26" value="DWS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OW2NwJiljSmGnzwjPQtV-26" value="DWS&lt;br&gt;(Data ware summary)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="360" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OW2NwJiljSmGnzwjPQtV-27" value="ADS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
