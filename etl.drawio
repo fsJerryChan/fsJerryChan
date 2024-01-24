@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T06:36:05.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Pp9lguUo5I3YkX29J2m3" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T06:38:40.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jQmSUzYIrbklN5ghU5Ya" version="23.0.0" type="github">
   <diagram name="第 1 页" id="-EShnu_tk9d9TIDoHzpz">
     <mxGraphModel dx="1216" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,10 +99,10 @@
           <mxGeometry x="620" y="360" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OW2NwJiljSmGnzwjPQtV-26" value="DWS&lt;br&gt;(Data ware summary)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="360" width="80" height="30" as="geometry" />
+          <mxGeometry x="820" y="340" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OW2NwJiljSmGnzwjPQtV-27" value="ADS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="820" y="360" width="80" height="30" as="geometry" />
+        <mxCell id="OW2NwJiljSmGnzwjPQtV-27" value="DIM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="360" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OW2NwJiljSmGnzwjPQtV-30" value="&lt;strike&gt;&lt;font color=&quot;#cc0000&quot;&gt;adb&lt;/font&gt;&lt;/strike&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1010" y="135" width="80" height="80" as="geometry" />
@@ -156,6 +156,9 @@
         </mxCell>
         <mxCell id="JTD08XN9TSS55gCmz0VN-4" value="权限中心" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="35" y="565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0D7PKz7oXYmaWJ_4M8bp-1" value="ADS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="375" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
