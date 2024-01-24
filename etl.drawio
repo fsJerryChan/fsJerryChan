@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T03:33:03.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="X_8ZfefK85mFvsyzswkc" version="22.1.22" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T03:35:58.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="M_9-NUMZo3UYObFdNcyJ" version="22.1.22" type="github">
   <diagram name="第 1 页" id="-EShnu_tk9d9TIDoHzpz">
     <mxGraphModel dx="1222" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
             <mxPoint x="-10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OW2NwJiljSmGnzwjPQtV-20" value="ODS&lt;br&gt;（字段均为String 类型）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OW2NwJiljSmGnzwjPQtV-20" value="ODS(Operatioal Data Store)&lt;br&gt;（字段均为String 类型）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="335" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW2NwJiljSmGnzwjPQtV-21" value="2 数据中台 ETL（Extract Tranformation Load）过程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
