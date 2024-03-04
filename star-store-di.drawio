@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:31:51.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CbGxd0s7YMPOLNo5DjzK" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:40:16.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="t_rgOJb3HaZocG1Qzq-1" version="24.0.1" type="github">
   <diagram name="第 1 页" id="O5wTIR30FCB-bHyDuwsl">
-    <mxGraphModel dx="2704" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3163" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,8 +127,68 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k7wby_McH9RWZLFx4SYY-29" value="smip&lt;br&gt;cc_p_visit_step_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="k7wby_McH9RWZLFx4SYY-29" value="&lt;b&gt;smip&lt;/b&gt;&lt;br&gt;cc_p_visit_step_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-930" y="1280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-32" target="k7wby_McH9RWZLFx4SYY-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-34" value="同步二次陈列分组月表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k7wby_McH9RWZLFx4SYY-33">
+          <mxGeometry x="-0.0756" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-32" value="&lt;b&gt;smip&lt;/b&gt;&lt;br&gt;cc_p_sd_group_fill_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-35" target="k7wby_McH9RWZLFx4SYY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="1280" />
+              <mxPoint x="-490" y="1120" />
+              <mxPoint x="-480" y="1120" />
+              <mxPoint x="-480" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-37" value="同步主货架填报月表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k7wby_McH9RWZLFx4SYY-36">
+          <mxGeometry x="-0.0081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-35" value="&lt;b&gt;smip&lt;/b&gt;&lt;br&gt;cc_p_ms_product_fill_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-38" target="k7wby_McH9RWZLFx4SYY-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="1170" />
+              <mxPoint x="-308" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-40" value="同步机柜填报月表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k7wby_McH9RWZLFx4SYY-39">
+          <mxGeometry x="-0.0064" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-38" value="&lt;b&gt;smip&lt;/b&gt;&lt;br&gt;cc_p_cab_product_fill_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-41" target="k7wby_McH9RWZLFx4SYY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-43" value="同步二次陈列采集填报月表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k7wby_McH9RWZLFx4SYY-42">
+          <mxGeometry x="-0.5175" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-41" value="&lt;b&gt;smip&lt;/b&gt;&lt;br&gt;cc_p_cab_product_fill_{yyyyMMdd}" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1280" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
