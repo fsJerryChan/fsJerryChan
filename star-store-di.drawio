@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:24:57.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RJAfurdRAnVpVYDA1J-M" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:27:30.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TEzHqmGQwwnAgpK1ZhnG" version="24.0.1" type="github">
   <diagram name="第 1 页" id="O5wTIR30FCB-bHyDuwsl">
     <mxGraphModel dx="1877" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,6 +106,12 @@
         </mxCell>
         <mxCell id="k7wby_McH9RWZLFx4SYY-20" value="union" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-338" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-25" value="t1.pv_id = t2.pv_id&lt;div&gt;and t1.pvs_id = t2.pvs_id&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="730" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-26" value="&lt;b&gt;t2&lt;/b&gt;, union 各采集项" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="1020" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
