@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:51:06.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-PtSjcl6KbbJ5Qf1sT9U" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:52:50.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="B7nhsN1Hm3ZU6UnU7Bka" version="24.0.1" type="github">
   <diagram name="第 1 页" id="O5wTIR30FCB-bHyDuwsl">
-    <mxGraphModel dx="3563" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qGeAgQmhq0IfEyRoK4iK-3" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;dwd_trs_sal_star_store_sell_dtl_di&lt;/font&gt;&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;b&gt;t2&lt;/b&gt;, 星级门店-分销（MTD）&lt;br&gt;-作用：取星级门店分销组合个数MTD" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="qGeAgQmhq0IfEyRoK4iK-3" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;dwd_trs_sal_star_store_sell_mo_di&lt;/b&gt;&lt;/font&gt;&lt;br&gt;-&amp;nbsp;&lt;b&gt;t2&lt;/b&gt;, 星级门店-分销（MTD）&lt;br&gt;-作用：取星级门店分销组合个数MTD" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="780" y="270" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeAgQmhq0IfEyRoK4iK-6" value="t1.store_id = t2.store_id&lt;br&gt;and t1.vst_dt = t2.bsn_dt&lt;br&gt;and t1.star_sku_grp = t2.star_sku_grp" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
