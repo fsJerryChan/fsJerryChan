@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:23:38.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YEhceXszxrKqJI_uZYyZ" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:24:11.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MpIrHLhXiRTCslu8aUb8" version="24.0.1" type="github">
   <diagram name="第 1 页" id="O5wTIR30FCB-bHyDuwsl">
     <mxGraphModel dx="1877" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k7wby_McH9RWZLFx4SYY-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="750" width="610" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="qGeAgQmhq0IfEyRoK4iK-1" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;ads_trs_sal_star_store_sell_di&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(星级门店分销)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="70" width="210" height="60" as="geometry" />
         </mxCell>
@@ -67,7 +70,7 @@
           <mxGeometry x="390" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7wby_McH9RWZLFx4SYY-12" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;std_vstore_cc_p_visit_step_di&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(&lt;b&gt;t1&lt;/b&gt;, 拜访步骤)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="760" width="210" height="60" as="geometry" />
+          <mxGeometry x="-690" y="750" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7wby_McH9RWZLFx4SYY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-13" target="k7wby_McH9RWZLFx4SYY-14">
           <mxGeometry relative="1" as="geometry" />
