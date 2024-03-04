@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T05:30:01.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6bnZf4GVYOBdr6gXkxPp" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T05:31:11.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ogw7WmQmF1a8b7VuNLcS" version="24.0.1" type="github">
   <diagram name="第 1 页" id="O5wTIR30FCB-bHyDuwsl">
     <mxGraphModel dx="1877" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,11 +22,20 @@
         <mxCell id="qGeAgQmhq0IfEyRoK4iK-6" value="t1.store_id = t2.store_id&lt;br&gt;and t1.vst_dt = t2.bsn_dt&lt;br&gt;and t1.star_sku_grp = t2.star_sku_grp" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="210" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k7wby_McH9RWZLFx4SYY-1" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;dwd_trs_sal_star_store_sell_dtl_di&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(&lt;b&gt;t1&lt;/b&gt;, 星级门店分销明细)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k7wby_McH9RWZLFx4SYY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-1" target="qGeAgQmhq0IfEyRoK4iK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-1" value="&lt;b&gt;dim_pub_store_df&lt;/b&gt;&lt;br&gt;(&lt;b&gt;t1&lt;/b&gt;, 门店主数据)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-30" y="400" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7wby_McH9RWZLFx4SYY-2" target="qGeAgQmhq0IfEyRoK4iK-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k7wby_McH9RWZLFx4SYY-2" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;dwd_trs_sal_star_store_sell_dtl_di&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(&lt;b&gt;t2&lt;/b&gt;, 星级门店分销明细)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="400" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k7wby_McH9RWZLFx4SYY-5" value="t1.store_id = t2.store_id" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
