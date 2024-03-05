@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T08:40:26.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="w9giolZIDsN4KoWhZF0C" version="24.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-05T08:40:45.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5lasnuy5Rn8MdGqnw4V_" version="24.0.1" type="github" pages="2">
   <diagram name="星级门店分销" id="O5wTIR30FCB-bHyDuwsl">
     <mxGraphModel dx="1877" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,7 +273,7 @@
           <mxGeometry x="430" y="-80" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="vUfhxMmngIxgGbW8-wMc-1" value="参考JOB: 4407" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="160" height="30" as="geometry" />
+          <mxGeometry x="-180" y="-110" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="31z-lfYSeylGR7cW0axn-1" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;ads_trs_sal_store_score_dtl_di&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(t1, 星级门店评分明细表)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="150" width="210" height="60" as="geometry" />
