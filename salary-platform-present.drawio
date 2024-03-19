@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T09:02:36.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="77V954S9n-2SvXzVd79C" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T09:26:37.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-OtL6BuD0b-8lR5lm73u" version="24.0.7" type="github">
   <diagram name="第 1 页" id="X4h0lDhVr6DsjgSZqi_2">
     <mxGraphModel dx="1961" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,6 +213,23 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-44" value="建行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-660" y="1099" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-46" value="银企直连CCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1260" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-47" value="建行网银服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1260" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="fc6A62byB4PiE7tNbmaq-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="1300" as="sourcePoint" />
+            <mxPoint x="-480" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-50" value="1 获取SM4秘钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc6A62byB4PiE7tNbmaq-49">
+          <mxGeometry x="-0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
