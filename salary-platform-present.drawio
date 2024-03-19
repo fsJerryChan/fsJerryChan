@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T09:34:07.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fDcoFETUjfPq5LC64hLx" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T10:41:38.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cnUBM2iyAk7AemBK2cVx" version="24.0.7" type="github">
   <diagram name="第 1 页" id="X4h0lDhVr6DsjgSZqi_2">
     <mxGraphModel dx="1961" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,30 +200,30 @@
           <mxGeometry x="-165" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="1050" width="340" height="130" as="geometry" />
+          <mxGeometry x="-90" y="1050" width="340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-42" value="公钥交换服务，向建行提供公钥" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="1050" width="170" height="30" as="geometry" />
+          <mxGeometry x="-80" y="1050" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-43" value="公钥" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1089" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="1089" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fc6A62byB4PiE7tNbmaq-44" target="fc6A62byB4PiE7tNbmaq-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-44" value="建行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="1099" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="1099" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-46" value="银企直连CCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="1260" width="120" height="180" as="geometry" />
+          <mxGeometry x="-360" y="1260" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-47" value="建行网银服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1260" width="120" height="170" as="geometry" />
+          <mxGeometry x="20" y="1260" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="fc6A62byB4PiE7tNbmaq-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-530" y="1300" as="sourcePoint" />
-            <mxPoint x="-480" y="1250" as="targetPoint" />
+            <mxPoint x="-240" y="1300" as="sourcePoint" />
+            <mxPoint x="-190" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-50" value="1 获取SM4秘钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc6A62byB4PiE7tNbmaq-49">
@@ -233,8 +233,8 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.992;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fc6A62byB4PiE7tNbmaq-46" target="fc6A62byB4PiE7tNbmaq-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-530" y="1350" as="sourcePoint" />
-            <mxPoint x="-480" y="1300" as="targetPoint" />
+            <mxPoint x="-240" y="1350" as="sourcePoint" />
+            <mxPoint x="-190" y="1300" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -245,8 +245,8 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="fc6A62byB4PiE7tNbmaq-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-530" y="1380" as="sourcePoint" />
-            <mxPoint x="-480" y="1330" as="targetPoint" />
+            <mxPoint x="-240" y="1380" as="sourcePoint" />
+            <mxPoint x="-190" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-54" value="3 登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc6A62byB4PiE7tNbmaq-53">
@@ -256,8 +256,8 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fc6A62byB4PiE7tNbmaq-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-530" y="1410" as="sourcePoint" />
-            <mxPoint x="-480" y="1360" as="targetPoint" />
+            <mxPoint x="-240" y="1410" as="sourcePoint" />
+            <mxPoint x="-190" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-56" value="4 上传MFS文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc6A62byB4PiE7tNbmaq-55">
@@ -267,8 +267,8 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-530" y="1430" as="sourcePoint" />
-            <mxPoint x="-270" y="1423" as="targetPoint" />
+            <mxPoint x="-240" y="1430" as="sourcePoint" />
+            <mxPoint x="20" y="1423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-58" value="5 申请代付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc6A62byB4PiE7tNbmaq-57">
