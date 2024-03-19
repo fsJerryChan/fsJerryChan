@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T08:58:48.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="p_o40iL21j7ygawtI2gq" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T09:02:36.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="77V954S9n-2SvXzVd79C" version="24.0.7" type="github">
   <diagram name="第 1 页" id="X4h0lDhVr6DsjgSZqi_2">
     <mxGraphModel dx="1961" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,6 +189,30 @@
         </mxCell>
         <mxCell id="fc6A62byB4PiE7tNbmaq-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;3 建行&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fc6A62byB4PiE7tNbmaq-35" target="fc6A62byB4PiE7tNbmaq-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-35" value="生成报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-36" value="明细复核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1050" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-42" value="公钥交换服务，向建行提供公钥" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1050" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-43" value="公钥" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1089" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fc6A62byB4PiE7tNbmaq-44" target="fc6A62byB4PiE7tNbmaq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc6A62byB4PiE7tNbmaq-44" value="建行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1099" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
