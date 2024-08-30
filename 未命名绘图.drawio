@@ -1,14 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-08-30T07:44:42.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xVHToOtyXUGeB8dXOsHw" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-30T07:54:24.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tbocsZi-L5VmoDqH8-_H" version="24.6.4" type="github">
   <diagram name="第 1 页" id="9VDkXiqXzSM0QYmHh2az">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-1" target="HYAi7QkFzsMV78lAO7AE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-13" value="替换成 cloudPivot 的plugin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYAi7QkFzsMV78lAO7AE-12">
+          <mxGeometry x="-0.0649" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HYAi7QkFzsMV78lAO7AE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="170" width="140" height="250" as="geometry" />
+          <mxGeometry x="110" y="170" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="HYAi7QkFzsMV78lAO7AE-3" value="AgileWork" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-4" value="回调，查询待办人列表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-5" value="回调，填加当前审批人表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-6" value="回调，更新IBS的表单状态" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="170" width="180" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-8" value="cloudPivot plugin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="170" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-9" value="&lt;strike&gt;回调，查询待办人列表&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="210" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-10" value="&lt;strike&gt;回调，填加当前审批人表&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447" y="260" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-11" value="&lt;strike&gt;回调，更新IBS的表单状态&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-14" value="把当前审批人列表、节点状态PULISH到MQ" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="340" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-16" value="如果流程实例完成，PUBLISH 消息到MQ，通知IBS更新流程表单完成状态、完成时间等" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="390" width="174" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
