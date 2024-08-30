@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-08-30T07:57:48.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="U78lv340wI4cKGTh1cHy" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-30T07:59:26.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Yw1mU4FU1QodBO6E41mT" version="24.6.4" type="github">
   <diagram name="第 1 页" id="9VDkXiqXzSM0QYmHh2az">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="70" width="290" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="HYAi7QkFzsMV78lAO7AE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-1" target="HYAi7QkFzsMV78lAO7AE-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -80,6 +83,9 @@
           <mxGeometry x="0.2003" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HYAi7QkFzsMV78lAO7AE-28" value="cloudPivot" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
