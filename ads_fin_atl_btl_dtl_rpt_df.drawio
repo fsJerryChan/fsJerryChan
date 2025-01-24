@@ -40,7 +40,7 @@
         <mxCell id="Ziax8fxTvrLB9GdavN1S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-10" target="Ziax8fxTvrLB9GdavN1S-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ziax8fxTvrLB9GdavN1S-10" value="dws_fin_atl_btl_info_di" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-10" value="&lt;b&gt;dws_fin_atl_btl_info_di&lt;/b&gt;&lt;div&gt;atl&amp;amp;btl 待分摊明细数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ziax8fxTvrLB9GdavN1S-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-12" target="Ziax8fxTvrLB9GdavN1S-16">
