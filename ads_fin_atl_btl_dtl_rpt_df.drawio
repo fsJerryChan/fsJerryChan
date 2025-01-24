@@ -34,8 +34,20 @@
         <mxCell id="Ziax8fxTvrLB9GdavN1S-8" value="dws_fin_atl_btl_adj_shr_rslt_di" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="320" width="186" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-10" target="Ziax8fxTvrLB9GdavN1S-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-10" target="Ziax8fxTvrLB9GdavN1S-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ziax8fxTvrLB9GdavN1S-10" value="dws_fin_atl_btl_info_di" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="170" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-12" value="dws_fin_a_p_acvy_chg_dtl_df" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-13" value="dws_fin_a_p_acvy_chg_mkt_dtl_df" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="170" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
