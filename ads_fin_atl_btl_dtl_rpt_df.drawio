@@ -85,8 +85,8 @@
         <mxCell id="Ziax8fxTvrLB9GdavN1S-24" value="&lt;b&gt;dws_fin_atl_btl_pft_cntr_shr_rate_di&lt;/b&gt;&lt;div&gt;ATL/BTL费用明细利润中心分摊比例&lt;/div&gt;" style="rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="760" y="20" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ziax8fxTvrLB9GdavN1S-25" value="dws_fin_inv_fytd_di" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="-100" width="150" height="60" as="geometry" />
+        <mxCell id="Ziax8fxTvrLB9GdavN1S-25" value="&lt;b&gt;dws_fin_inv_fytd_di&lt;/b&gt;&lt;div&gt;客户产品发票 DTC开票信息财年汇总&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="-100" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
