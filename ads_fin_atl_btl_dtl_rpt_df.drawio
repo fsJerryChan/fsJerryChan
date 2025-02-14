@@ -88,6 +88,9 @@
         <mxCell id="bz2IT3Z17b47Xwp1ipDZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-25" target="bz2IT3Z17b47Xwp1ipDZ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-25" target="bz2IT3Z17b47Xwp1ipDZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ziax8fxTvrLB9GdavN1S-25" value="&lt;b&gt;dws_fin_inv_fytd_di&lt;/b&gt;&lt;div&gt;客户产品发票 DTC开票信息财年汇总&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="-100" width="170" height="60" as="geometry" />
         </mxCell>
@@ -99,6 +102,15 @@
         </mxCell>
         <mxCell id="bz2IT3Z17b47Xwp1ipDZ-3" value="&lt;b&gt;dwd_fin_inv_dtl_df&lt;/b&gt;&lt;br&gt;&lt;div&gt;发票开票明细&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="-250" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="bz2IT3Z17b47Xwp1ipDZ-5" target="bz2IT3Z17b47Xwp1ipDZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-5" value="&lt;b&gt;dws_fin_dtc_inv_dly_df&lt;/b&gt;&lt;br&gt;&lt;div&gt;客户产品DTC汇总表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-70" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-7" value="&lt;b&gt;dwd_fin_dtc_pst_df&lt;/b&gt;&lt;br&gt;&lt;div&gt;DTC财务过账明细&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="-70" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
