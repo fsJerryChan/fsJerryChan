@@ -77,6 +77,12 @@
         <mxCell id="Ziax8fxTvrLB9GdavN1S-6" value="&lt;b&gt;dws_fin_atl_btl_hq_shr_rslt_di&lt;/b&gt;&lt;div&gt;ATL/BTL费用明细全国分摊结果&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="425" width="226" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-8" target="bz2IT3Z17b47Xwp1ipDZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Ziax8fxTvrLB9GdavN1S-8" target="bz2IT3Z17b47Xwp1ipDZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ziax8fxTvrLB9GdavN1S-8" value="&lt;b&gt;dws_fin_atl_btl_adj_shr_rslt_di&lt;/b&gt;&lt;div&gt;ATL/BTL费用明细调整值全国分摊结果&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="720" width="226" height="60" as="geometry" />
         </mxCell>
@@ -168,6 +174,9 @@
         </mxCell>
         <mxCell id="bz2IT3Z17b47Xwp1ipDZ-19" value="&lt;b&gt;dws_fin_atl_btl_hq_shr_rate_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;ATL/BTL费用明细全国分摊比例&lt;/div&gt;" style="rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="780" y="425" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bz2IT3Z17b47Xwp1ipDZ-28" value="&lt;b&gt;dwd_fin_cf_atl_btl_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;ATL/BTL调整表&lt;/div&gt;" style="rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="720" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
