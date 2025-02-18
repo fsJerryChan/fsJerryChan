@@ -13,6 +13,9 @@
         <mxCell id="RX08VAxo57eMM2NK6fA--2" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="60" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="RX08VAxo57eMM2NK6fA--3" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="200" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
