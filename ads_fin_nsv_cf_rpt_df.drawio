@@ -1,20 +1,38 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="yCVcIyTOCZYH85aR5Unp">
-    <mxGraphModel dx="1050" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tR0_oq1lKLPy9Ii8GGcT-2" value="&lt;b&gt;ads_fin_nsv_cf_rpt_df&lt;/b&gt;&lt;div&gt;销售财务报表 NSV 指标应用表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="60" width="200" height="50" as="geometry" />
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tR0_oq1lKLPy9Ii8GGcT-2" target="RX08VAxo57eMM2NK6fA--1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RX08VAxo57eMM2NK6fA--1" value="&lt;b&gt;dws_fin_cf_nsv_cm_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;销售财务报表 NSV 指标应用表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tR0_oq1lKLPy9Ii8GGcT-2" target="RX08VAxo57eMM2NK6fA--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tR0_oq1lKLPy9Ii8GGcT-2" target="RX08VAxo57eMM2NK6fA--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tR0_oq1lKLPy9Ii8GGcT-2" target="vKk18pt4J6vw0Ihyzol6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tR0_oq1lKLPy9Ii8GGcT-2" value="&lt;b&gt;ads_fin_nsv_cf_rpt_df&lt;/b&gt;&lt;div&gt;销售财务报表 NSV 指标应用表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="130" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RX08VAxo57eMM2NK6fA--1" value="&lt;b&gt;dws_fin_cf_nsv_cm_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;销售财务报表 NSV 指标应用表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="-30" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RX08VAxo57eMM2NK6fA--2" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RX08VAxo57eMM2NK6fA--2" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="60" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RX08VAxo57eMM2NK6fA--3" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RX08VAxo57eMM2NK6fA--3" value="&lt;b&gt;dwd_fin_cf_nsv_adj_hh_di&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="160" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-1" value="&lt;b&gt;ods_ftp_fin_nsv_fadj_df&lt;/b&gt;&lt;br&gt;&lt;div&gt;财务月结NSV最终调整&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vKk18pt4J6vw0Ihyzol6-2" value="&lt;b&gt;ods_cf_oss_ds0024_fin_init_nsv&lt;/b&gt;&lt;br&gt;&lt;div&gt;历史NSV数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
