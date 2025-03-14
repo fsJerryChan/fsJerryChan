@@ -1,103 +1,316 @@
-<mxfile host="app.diagrams.net" modified="2024-08-30T09:33:38.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="38eJhVv0gUy-vxuSjImT" version="24.6.4" type="github">
-  <diagram name="第 1 页" id="9VDkXiqXzSM0QYmHh2az">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.16" pages="6">
+  <diagram id="A1w9XK3HSWpW4xJ76zjo" name="第 4 页">
+    <mxGraphModel dx="2261" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="70" width="290" height="400" as="geometry" />
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="110" width="1000" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-1" target="HYAi7QkFzsMV78lAO7AE-7">
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sMSkvm6UzwQkn9kENJbW-1" target="sMSkvm6UzwQkn9kENJbW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-13" value="替换成 cloudPivot 的plugin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYAi7QkFzsMV78lAO7AE-12">
-          <mxGeometry x="-0.0649" y="-1" relative="1" as="geometry">
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-8" value="adapt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sMSkvm6UzwQkn9kENJbW-3">
+          <mxGeometry x="-0.1923" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="170" width="180" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-3" value="AgileWork" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="170" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-4" value="回调，查询待办人列表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="210" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-5" value="回调，填加当前审批人表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-6" value="回调，更新IBS的表单状态" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="310" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="130" width="180" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-8" value="cloudPivot plugin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="444" y="130" width="106" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-9" value="&lt;strike&gt;回调，查询待办人列表&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="170" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-10" value="&lt;strike&gt;回调，填加当前审批人表&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="447" y="220" width="174" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-11" value="&lt;strike&gt;回调，更新IBS的表单状态&lt;/strike&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="260" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-14" value="把当前审批人列表、节点状态PULISH到MQ" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="444" y="300" width="174" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-16" value="如果流程实例完成，PUBLISH 消息到MQ，通知IBS更新流程表单完成状态、完成时间等" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="444" y="350" width="174" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-17" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
-          <mxGeometry x="710" y="230" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-14" target="HYAi7QkFzsMV78lAO7AE-17">
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMSkvm6UzwQkn9kENJbW-1" target="sMSkvm6UzwQkn9kENJbW-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-24" value="publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYAi7QkFzsMV78lAO7AE-18">
-          <mxGeometry x="-0.0943" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-1" value="DataSimba(调度任务)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-16" target="HYAi7QkFzsMV78lAO7AE-17">
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-2" value="EMR（计算引擎）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1、EMR 今年 10 月 EOS&lt;/div&gt;&lt;div&gt;2、包含了 8 台服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="340" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-4" value="1、DATAWORKS 替換 DataSimba （Cancel）&lt;div&gt;&lt;br&gt;2、EMR 的升级（EMR SERVERLESS STARROCKS）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;3、对在用的 EMR 的服务器做镜像。然后把镜像重新还原到自己DEPOLY的 ECS 上&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 大数据集群的监控可能要自己重新去实现，DASHBOARD&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 大数据集群以后需要自己去运维&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 升級&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="174" y="525" width="346" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-6" value="DATAKUN&lt;br&gt;（奇点云自己的计算引擎，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;但维他奶没有选择&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-10" value="alibaba" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-15" value="奇点云" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="63i-yV1RRP2NK2BykyU8" name="第 2 页">
+    <mxGraphModel dx="2117" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k034mDpPohNFwEOob_9n-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-1" target="hECveJR7XrIfBQxu_lEZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-25" value="publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYAi7QkFzsMV78lAO7AE-19">
-          <mxGeometry x="-0.3497" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="155" width="180" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-21" value="Eflow" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="940" y="155" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-20" target="HYAi7QkFzsMV78lAO7AE-17">
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b style=&quot;&quot;&gt;ads_trs_lst_agrm_rpt_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(陈列堆积签约汇总报表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_ads_trs_lst_agrm_rpt_df_2278&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心、门店下业代、主管、销量、陈列品项、兑付方式&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="hECveJR7XrIfBQxu_lEZ-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="-540" y="-240" width="540" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hECveJR7XrIfBQxu_lEZ-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-2" target="hECveJR7XrIfBQxu_lEZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-26" value="subscribe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYAi7QkFzsMV78lAO7AE-23">
-          <mxGeometry x="0.2003" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="hECveJR7XrIfBQxu_lEZ-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-2" target="hECveJR7XrIfBQxu_lEZ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-28" value="cloudPivot" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="60" height="30" as="geometry" />
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dws_trs_lst_agrm_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(陈列签约汇总表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_lst_agrm_df_2021&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同签约门店下的陈列主题活动、本品销量、门店签约时星级&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="hECveJR7XrIfBQxu_lEZ-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="60" y="-240" width="470" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_expn_aply_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(费用申请信息表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_expn_aply_dtl_df_2985&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同门店下活动的预估费用&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="hECveJR7XrIfBQxu_lEZ-3">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="570" y="-662" width="280" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hECveJR7XrIfBQxu_lEZ-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-5" target="hECveJR7XrIfBQxu_lEZ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYAi7QkFzsMV78lAO7AE-20" target="HYAi7QkFzsMV78lAO7AE-27">
+        <mxCell id="bACeTL3MuIUwSK5j_YpA-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-5" target="bACeTL3MuIUwSK5j_YpA-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAnM_ObHsB-zVpHEO8Ew-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-5" target="jAnM_ObHsB-zVpHEO8Ew-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k034mDpPohNFwEOob_9n-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hECveJR7XrIfBQxu_lEZ-5" target="k034mDpPohNFwEOob_9n-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dws_trs_lst_agrm_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(陈列协议明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_lst_agrm_dtl_df_1685&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同签约门店下的陈列主题活动、本品销量、门店签约时星级、费用销量目的达成率&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="hECveJR7XrIfBQxu_lEZ-5">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="570" y="-60" width="500" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_expn_aply_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(费用申请信息表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_expn_aply_dtl_df_2985&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同门店下活动的预估费用&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="hECveJR7XrIfBQxu_lEZ-7">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1090" y="-310" width="270" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_bsn_prxy_ord_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_bsn_prxy_ord_dtl_df_6488&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同大区、成本中心、办事处、客户组、门店、渠道、品牌下的业代下单数量、积分明细数据&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="bACeTL3MuIUwSK5j_YpA-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1090" y="-130" width="550" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_acvy_sign_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(主题活动签约信息表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_acvy_sign_dtl_df_8836&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.计算出不同活动的签约明细数据&lt;b style=&quot;font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;/div&gt;" treeRoot="1" id="jAnM_ObHsB-zVpHEO8Ew-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1090" y="50" width="260" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_pymt_pic_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(核销图片信息表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_pymt_pic_dtl_df_5124&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.计算出拍照的图中是否按陈列规则摆列&lt;b style=&quot;font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;/div&gt;" treeRoot="1" id="k034mDpPohNFwEOob_9n-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1090" y="200" width="260" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="r-UUUDBxFd2QoWTMX98G" name="第 3 页">
+    <mxGraphModel dx="2117" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zvSd5KfrHXZOM9RdSPQO-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TMUc2_etTlVPTGdiGfPv-1" target="TMUc2_etTlVPTGdiGfPv-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;ads_trs_sal_store_score_dtl_df&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(门店评分明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_ads_trs_sal_store_score_dtl_df_4407&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心下各门店拜访时业代、计分明细项、分销标准得分、加分得分、星级、总分、上次得分&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="TMUc2_etTlVPTGdiGfPv-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="-760" y="-810" width="730" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="l9RQevm1ebvaICnypTkS-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TMUc2_etTlVPTGdiGfPv-2" target="zvSd5KfrHXZOM9RdSPQO-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_store_score_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(门店评分明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_store_score_dtl_df_3487&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心的门店评分明细数据&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="TMUc2_etTlVPTGdiGfPv-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="70" y="-810" width="540" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Cn0KOAnvLRvClu2dwjlk-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zvSd5KfrHXZOM9RdSPQO-2" target="Cn0KOAnvLRvClu2dwjlk-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9RQevm1ebvaICnypTkS-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zvSd5KfrHXZOM9RdSPQO-2" target="l9RQevm1ebvaICnypTkS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;dws_trs_sal_bsn_prxy_ord_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(门店评分明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_bsn_prxy_ord_df_3880&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出各业代出货订单明细数据(渠道、产品、品牌、箱数、金额)&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="zvSd5KfrHXZOM9RdSPQO-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="640" y="-810" width="540" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_bsn_prxy_ord_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_bsn_prxy_ord_dtl_df_6488&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同大区、成本中心、办事处、客户组、门店、渠道、品牌下的业代下单数量、积分明细数据&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="Cn0KOAnvLRvClu2dwjlk-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1210" y="-940" width="550" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_ord_deliv_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(订单发货明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_ord_deliv_dtl_df_6851&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同门店下订单&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;发货日期、取消时间、过期时间、金额、数量、积分、单价&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="l9RQevm1ebvaICnypTkS-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1210" y="-750" width="470" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fmNx_9DeYM7GIoG3Qgil" name="第 5 页">
+    <mxGraphModel dx="2440" dy="3153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ssPSwt7DZFKGl30CFVhJ-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sysS8jLJJ9FErr3K5phw-1" target="sysS8jLJJ9FErr3K5phw-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;ads_trs_sal_cab_rpt_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(机柜指标应用表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_ads_trs_sal_cab_rpt_df_5249&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;下机柜门店数、共采机柜投放数、机柜投放数&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="sysS8jLJJ9FErr3K5phw-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="-190" y="-1430" width="500" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="kbOb7k5CcUmZfuvdD6Rw-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sysS8jLJJ9FErr3K5phw-2" target="ssPSwt7DZFKGl30CFVhJ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbOb7k5CcUmZfuvdD6Rw-12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sysS8jLJJ9FErr3K5phw-2" target="kbOb7k5CcUmZfuvdD6Rw-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dws_trs_sal_cab_put_chk_di&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(机柜汇总表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_cab_put_chk_di_1039&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心下&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;主任、可控门店数、冷柜+冷热柜门店数、热柜+冷热柜门店数、投放机柜数&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="sysS8jLJJ9FErr3K5phw-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="370" y="-1430" width="680" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jh52cm7iBZEMNmDQp58I-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssPSwt7DZFKGl30CFVhJ-2" target="jh52cm7iBZEMNmDQp58I-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYSHtfIBnzZU2Mw_Hzhm-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssPSwt7DZFKGl30CFVhJ-2" target="BYSHtfIBnzZU2Mw_Hzhm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbBqmsCk1bSRgqWfIRPv-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssPSwt7DZFKGl30CFVhJ-2" target="jbBqmsCk1bSRgqWfIRPv-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbOb7k5CcUmZfuvdD6Rw-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssPSwt7DZFKGl30CFVhJ-2" target="kbOb7k5CcUmZfuvdD6Rw-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dws_trs_sal_bsn_prxy_vst_dtl_di&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(业代拜访汇总表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_bsn_prxy_vst_dtl_di_4094&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同地区、办事处、客户组、成本中心下业代拜访的箱数、金额的汇总&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="ssPSwt7DZFKGl30CFVhJ-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1110" y="-1430" width="447" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_bsn_prxy_ord_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_bsn_prxy_ord_dtl_df_6488&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同大区、成本中心、办事处、客户组、门店、渠道、品牌下的业代下单数量、积分明细数据&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="jh52cm7iBZEMNmDQp58I-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1580" y="-1570" width="550" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_ord_deliv_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(订单发货明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_ord_deliv_dtl_df_6851&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同门店下订单&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;发货日期、取消时间、过期时间、金额、数量、积分、单价&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="BYSHtfIBnzZU2Mw_Hzhm-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1580" y="-1370" width="470" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_bsn_prxy_vst_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代拜访明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_bsn_prxy_vst_dtl_df_2913&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同业代的拜访明细数据(路线、时间、小结)&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="jbBqmsCk1bSRgqWfIRPv-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1580" y="-1190" width="300" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="kbOb7k5CcUmZfuvdD6Rw-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kbOb7k5CcUmZfuvdD6Rw-1" target="kbOb7k5CcUmZfuvdD6Rw-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbOb7k5CcUmZfuvdD6Rw-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kbOb7k5CcUmZfuvdD6Rw-1" target="kbOb7k5CcUmZfuvdD6Rw-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_store_list_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(门店清单明细表（CO\AO等标识）&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_store_list_dtl_df_5084&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同门店下清单明细数据&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="kbOb7k5CcUmZfuvdD6Rw-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1580" y="-1010" width="280" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_bsn_prxy_ord_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_bsn_prxy_ord_dtl_df_6488&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同大区、成本中心、办事处、客户组、门店、渠道、品牌下的业代下单数量、积分明细数据&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="kbOb7k5CcUmZfuvdD6Rw-3">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1910" y="-1070" width="550" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_bsn_prxy_vst_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(业代拜访明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_bsn_prxy_vst_dtl_df_2913&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同业代的拜访明细数据(路线、时间、小结)&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="kbOb7k5CcUmZfuvdD6Rw-7">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1910" y="-890" width="300" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;dwd_trs_sal_cab_chk_dtl_df&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;(机柜检查明细表)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_cab_chk_dtl_df_4119&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;1.计算出不同机柜的id、名称、类型、编码&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="kbOb7k5CcUmZfuvdD6Rw-11">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+            <mxGeometry x="1110" y="-1250" width="270" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="第 2 页" id="O0G7yGYyzqseWfsEUzKZ">
+    <mxGraphModel dx="2501" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nkBGkOsbmCvhORCx466J-2" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="eoANN8R2HbQMCdnrzz6L-1" target="nkBGkOsbmCvhORCx466J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ads_trs_sal_res_sellout_dtl_df&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(分销商进销存明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_ads_trs_sal_res_sellout_dtl_df_5069&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.每天全量更新分销商进销存明细数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="eoANN8R2HbQMCdnrzz6L-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="-150" y="262.5" width="270" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nkBGkOsbmCvhORCx466J-4" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="nkBGkOsbmCvhORCx466J-1" target="nkBGkOsbmCvhORCx466J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkBGkOsbmCvhORCx466J-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkBGkOsbmCvhORCx466J-1" target="nkBGkOsbmCvhORCx466J-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;b&gt;dws_trs_sal_res_sellout_dtl_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(分销商进销存明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_res_sellout_dtl_df_8374&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.每天全量更新分销商进销存的周/月盘点明细数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="nkBGkOsbmCvhORCx466J-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="190" y="250" width="300" height="180" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;b&gt;dwd_trs_sal_sec_cust_ord_dtl_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(二级客户(分销商、配送商)销售订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_sec_cust_ord_dtl_df_4123&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.获取二级客户的销售订单明细数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="nkBGkOsbmCvhORCx466J-3">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="610" y="80" width="320" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nkBGkOsbmCvhORCx466J-10" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="nkBGkOsbmCvhORCx466J-5" target="nkBGkOsbmCvhORCx466J-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;b&gt;dws_trs_sal_sec_cust_ivnt_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(二级客户（分销商、配送商）库存明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_sec_cust_ivnt_df_8629&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.计算出二级客户、盘点日期、sku、盘点类型&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.二级客户带出对应的一级客户销商mapping表（用于连接带出价格）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.计算出二级客户有盘点部分的记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; 3.1有盘点记录的从DWD盘点明细直取&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; 3.2 没有盘点记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3.2.1&amp;nbsp;判断是否最近93天有盘点记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3.2.2&amp;nbsp;最近93天有盘点记录&amp;nbsp;则取盘点记录。没有的则为0&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.计算出无盘点记录的最近一次盘点日期&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5.补充好无盘点的盘点数据：无盘点的找93天内的盘点记录，不分盘点类型&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6.计算出完成的盘点记录：(有盘点的&amp;nbsp;拼上&amp;nbsp;无盘点的，然后找期初库存&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7.将前6步计算出的数据，插入结果表&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="nkBGkOsbmCvhORCx466J-5">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="610" y="250" width="430" height="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;b&gt;dwd_trs_sal_sec_cust_ivnt_dtl_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(分销商库存明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_sec_cust_ivnt_dtl_df_6413&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.获取分销商库存明细数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="nkBGkOsbmCvhORCx466J-9">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="1140" y="260" width="310" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="第 3 页" id="4zV9FfSI2SBaLorcHStk">
+    <mxGraphModel dx="2501" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EZ1w0V31XxUtIMNnz39c-3" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="EZ1w0V31XxUtIMNnz39c-1" target="EZ1w0V31XxUtIMNnz39c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ads_trs_sal_res_acvy_df&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(分销商活跃情况汇总表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_ads_trs_sal_res_acvy_df_7026&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.获取分销商活跃情况汇总数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="EZ1w0V31XxUtIMNnz39c-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="-390" y="210" width="280" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EZ1w0V31XxUtIMNnz39c-5" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EZ1w0V31XxUtIMNnz39c-2" target="B6NrTU1a6n8V-Rs-pER6-1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="805" y="180" />
-              <mxPoint x="805" y="115" />
-            </Array>
+            <mxPoint x="330" y="287.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HYAi7QkFzsMV78lAO7AE-31" value="1、创建流程实例&lt;br&gt;2、审批通过&lt;div&gt;3、添加额外审批人，调用加签（云枢无法串行，可能要在EFLOW控制）&lt;/div&gt;&lt;div&gt;4、转派（代办可能要用到）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="50" width="390" height="50" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;b&gt;dws_trs_sal_res_acvy_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(分销商活跃情况汇总表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dws_trs_sal_res_acvy_df_5573&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.计算出二级客户类型为reseller下不同销售大区、地区、成本中心、办事处、客户组、片区下的盘点类型、分销商数量、活跃数的汇总数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="EZ1w0V31XxUtIMNnz39c-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="-30" y="210" width="280" height="155" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;b&gt;dwd_trs_sal_sec_cust_ord_dtl_df&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(二级客户(分销商、配送商)销售订单明细表&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;job:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;job_trsf_dwd_trs_sal_sec_cust_ord_dtl_df_4123&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;处理过程:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.获取二级客户的销售订单明细数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="B6NrTU1a6n8V-Rs-pER6-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="460" y="217.5" width="320" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
