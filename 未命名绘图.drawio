@@ -24,8 +24,8 @@
         <mxCell id="sMSkvm6UzwQkn9kENJbW-2" value="EMR（计算引擎）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1、EMR 今年 10 月 EOS（End Of Service）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、包含了 9 台服务器&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、上面安装了大数据的Component，如右圖&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="174" y="340" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sMSkvm6UzwQkn9kENJbW-6" value="DATAKUN&lt;br&gt;（奇点云自己的计算引擎，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;但维他奶没有选择&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="sMSkvm6UzwQkn9kENJbW-6" value="DATAKUN&lt;br&gt;（奇点云自己的计算引擎，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;但客戶没有选择，而是选择了阿里的EMR&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="180" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sMSkvm6UzwQkn9kENJbW-10" value="alibaba" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="190" y="355" width="80" height="60" as="geometry" />
