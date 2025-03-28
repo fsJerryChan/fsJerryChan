@@ -99,6 +99,9 @@
         <mxCell id="DQ3qtjiZSjvrD9H1HoAP-6" value="老方案" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-180" y="20" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="DQ3qtjiZSjvrD9H1HoAP-7" value="（1）数据迁移&lt;br&gt;（2）代码改造" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="605" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
