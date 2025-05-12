@@ -69,6 +69,9 @@
         <mxCell id="4C_u59s0PWGTWfB15SAx-21" value="std_vstore_om_check_v3_df&lt;br&gt;机柜门店检查" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="700" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4C_u59s0PWGTWfB15SAx-23" value="机柜主数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
