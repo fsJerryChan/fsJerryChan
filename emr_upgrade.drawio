@@ -126,6 +126,9 @@
         <mxCell id="rCgpgmv-2Kc-Fvn80EIz-44" value="Hive 表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="482.5" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;2&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;迁移步骤&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34.99999999999999" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
