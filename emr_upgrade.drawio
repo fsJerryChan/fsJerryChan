@@ -1,165 +1,165 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="t28L84DK9KnocP4gWBqY">
-    <mxGraphModel dx="983" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1 数据&lt;/font&gt;迁移步骤&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1 数据&lt;/font&gt;迁移步骤&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="31.63" y="20" width="178.37" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（1）数据文件迁移&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（1）数据文件迁移&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="100" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-6" value="OSS-HDFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-6" value="OSS-HDFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="385" y="145" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-7" target="rCgpgmv-2Kc-Fvn80EIz-6">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-7" target="rCgpgmv-2Kc-Fvn80EIz-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-7" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-7" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="65" y="145" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-9" value="数据文件迁移" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-9" value="数据文件迁移" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="135" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="100" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（2）迁移 Hive 的 Metastore&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（2）迁移 Hive 的 Metastore&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="230" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="270" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="270" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-15" value="Hive Metastore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-15" value="Hive Metastore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="385" y="330" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-17" target="rCgpgmv-2Kc-Fvn80EIz-15">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-17" target="rCgpgmv-2Kc-Fvn80EIz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-17" value="Hive Metastore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-17" value="Hive Metastore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="65" y="330" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-18" value="(1) 同步Hive Metastore&lt;br&gt;&lt;br&gt;(2) 修改新库中，元数据的数据文件路径" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-18" value="(1) 同步Hive Metastore&lt;br&gt;&lt;br&gt;(2) 修改新库中，元数据的数据文件路径" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="300" width="133" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="270" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="270" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="50" y="300" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="370" y="300" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-23" value="RDS MySQL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-23" value="RDS MySQL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="300" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-24" value="RDS MySQL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-24" value="RDS MySQL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="300" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（3）数据校验&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;（3）数据校验&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="29" y="420" width="101" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-27" target="rCgpgmv-2Kc-Fvn80EIz-28">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rCgpgmv-2Kc-Fvn80EIz-27" target="rCgpgmv-2Kc-Fvn80EIz-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-47" value="对比最新分区数据量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rCgpgmv-2Kc-Fvn80EIz-46">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-47" value="对比最新分区数据量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rCgpgmv-2Kc-Fvn80EIz-46" vertex="1" connectable="0">
           <mxGeometry x="-0.1749" y="-2" relative="1" as="geometry">
             <mxPoint x="12" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="460" width="218.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="460" width="238.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-29" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;dim_pub_store_df&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-29" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;dim_pub_store_df&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="425" y="512.5" width="193.5" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;dim_pub_store_df&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;dim_pub_store_df&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="51.75" y="512.5" width="188.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 4.8.0&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="460" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-34" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-34" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;EMR 5.12.2&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="460" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-35" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;……&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-35" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;……&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="131.63" y="575" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-36" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;dwd_fin_pft_info_dtl_df&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-36" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;dwd_fin_pft_info_dtl_df&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="550" width="193.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-38" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;dwd_fin_pft_info_dtl_df&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-38" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;dwd_fin_pft_info_dtl_df&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="423.5" y="550" width="193.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-40" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;……&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-40" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;……&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="508.5" y="575" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-41" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ads_pub_store_df&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-41" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ads_pub_store_df&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="610" width="193.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-42" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ads_pub_store_df&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-42" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ads_pub_store_df&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="422.63" y="610" width="193.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-43" value="Hive 表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-43" value="Hive 表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="49.5" y="482.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-44" value="Hive 表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-44" value="Hive 表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="425" y="482.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;&quot;&gt;2 &lt;/font&gt;&lt;font style=&quot;&quot;&gt;升级计划&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;&quot;&gt;2 &lt;/font&gt;&lt;font style=&quot;&quot;&gt;升级计划&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="35" y="700" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="740" width="218.5" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-50" value="Stage - 1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-50" value="Stage - 1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="740" width="68.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1) 准备 EMR 5.12.2 POC 环境&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;(2) Kerberos 认证方式影响评估&lt;br&gt;(3) 数据迁移方案制定&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(4) 数据迁移 POC&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(5) 迁移时效性评估&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1) 准备 EMR 5.12.2 POC 环境&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;(2) Kerberos 认证方式影响评估&lt;br&gt;(3) 数据迁移方案制定&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(4) 数据迁移 POC&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(5) 迁移时效性评估&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="45.379999999999995" y="790" width="202.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-52" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20250508 - 20250530&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-52" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20250508 - 20250530&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="770" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="740" width="258.5" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-54" value="Stage - 2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-54" value="Stage - 2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="300" y="740" width="68.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1) 开发数据迁移自动化脚本（数开）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(2) 部署 EMR 5.12.2 的正式环境&lt;br&gt;(3) 部署新版本 DataSimba (奇点云)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(4) 进行数据全量迁移 (数开)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(5) 调整中台Hive连接、Python Job 的 Kerberos 配置 (数开、奇点云)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(6) EMR 5.12.2、DataSimba、VSmart 集成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1) 开发数据迁移自动化脚本（数开）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(2) 部署 EMR 5.12.2 的正式环境&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;(3) 进行数据全量迁移 (数开)&lt;/font&gt;&lt;/div&gt;(4) 部署新版本 DataSimba (奇点云)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(5) 调整中台Hive连接、Python Job 的 Kerberos 配置 (数开、奇点云)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(6) EMR 5.12.2、DataSimba、VSmart 集成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="308.5" y="820" width="245.38" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-56" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20250608 - 20250829&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-56" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20250608 - 20250829&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="770" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="740" width="258.5" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-58" value="Stage - 3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-58" value="Stage - 3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="600" y="740" width="68.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(1) 清空数据表数据 (数开)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(2) 批量停止新版 DataSimba 调度 (奇点云)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(3) 进行数据全量迁移 及 校验 (数开)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(4) 批量启动新版 DataSimba 调度 (奇点云)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(5) 停止旧版 DataSimba 调度，至此，中台切换到 EMR 5.12.2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(1) 清空数据表数据 (数开)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(2) 批量停止新版 DataSimba 调度 (奇点云)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(3) 进行数据全量迁移 及 校验 (数开)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(4) 批量启动新版 DataSimba 调度 (奇点云)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(5) 停止旧版 DataSimba 调度，至此，中台切换到 EMR 5.12.2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="606.56" y="790" width="245.38" height="130" as="geometry" />
         </mxCell>
       </root>
