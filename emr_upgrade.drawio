@@ -142,16 +142,25 @@
           <mxGeometry x="41.5" y="770" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rCgpgmv-2Kc-Fvn80EIz-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="311.5" y="740" width="258.5" height="230" as="geometry" />
+          <mxGeometry x="300" y="740" width="258.5" height="230" as="geometry" />
         </mxCell>
         <mxCell id="rCgpgmv-2Kc-Fvn80EIz-54" value="Stage - 2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="311.5" y="740" width="68.5" height="30" as="geometry" />
+          <mxGeometry x="300" y="740" width="68.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rCgpgmv-2Kc-Fvn80EIz-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1) 开发数据迁移自动化脚本（数开）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(2) 部署 EMR 5.12.2 的正式环境&lt;br&gt;(3) 部署新版本 DataSimba (奇点云)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(4) 进行数据全量迁移 (数开)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(5) 调整中台Hive连接、Python Job 的 Kerberos 配置 (数开、奇点云)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(6) EMR 5.12.2、DataSimba、VSmart 集成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="820" width="245.38" height="130" as="geometry" />
+          <mxGeometry x="308.5" y="820" width="245.38" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rCgpgmv-2Kc-Fvn80EIz-56" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20250608 - 20250829&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="311.5" y="770" width="130" height="30" as="geometry" />
+          <mxGeometry x="300" y="770" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="740" width="258.5" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-58" value="Stage - 3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="740" width="68.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCgpgmv-2Kc-Fvn80EIz-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(1) 清空数据表数据 (数开)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(2) 批量停止新版 DataSimba 调度 (奇点云)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(3) 进行数据全量迁移 及 校验 (数开)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(4) 批量启动新版 DataSimba 调度 (奇点云)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(5) 停止旧版 DataSimba 调度，至此，中台切换到 EMR 5.12.2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="606.56" y="790" width="245.38" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
