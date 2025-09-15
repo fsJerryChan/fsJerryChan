@@ -11,19 +11,19 @@
           <mxGeometry x="-174" y="166" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-0b9yfG9RK5piMWwZnRU-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-174" y="204" width="120" height="38" as="geometry" />
+          <mxGeometry x="-174" y="204" width="120" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="-0b9yfG9RK5piMWwZnRU-7" value="父进程内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="-174" y="242" width="120" height="38" as="geometry" />
+        <mxCell id="-0b9yfG9RK5piMWwZnRU-7" value="父进程内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="-174" y="268" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-0b9yfG9RK5piMWwZnRU-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-174" y="280" width="120" height="38" as="geometry" />
+          <mxGeometry x="-174" y="306" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-0b9yfG9RK5piMWwZnRU-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-174" y="318" width="120" height="38" as="geometry" />
+          <mxGeometry x="-174" y="344" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-0b9yfG9RK5piMWwZnRU-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;内存&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-144" y="87" width="60" height="30" as="geometry" />
+          <mxGeometry x="-142" y="94" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
