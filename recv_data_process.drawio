@@ -11,7 +11,7 @@
           <mxGeometry x="170" y="100" width="44" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-3" value="OS 内核" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
-          <mxGeometry x="610" y="114" width="50" height="46" as="geometry" />
+          <mxGeometry x="610" y="100" width="50" height="46" as="geometry" />
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-4" value="内存" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.ram;" vertex="1" parent="1">
           <mxGeometry x="470" y="125.5" width="40" height="19" as="geometry" />
@@ -36,7 +36,7 @@
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint x="64" y="210" as="sourcePoint" />
             <mxPoint x="190" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -57,12 +57,27 @@
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="270" as="sourcePoint" />
-            <mxPoint x="490" y="270" as="targetPoint" />
+            <mxPoint x="192" y="241" as="sourcePoint" />
+            <mxPoint x="492" y="241" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-19" value="(2) DMA写内存" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="110" height="30" as="geometry" />
+          <mxGeometry x="200" y="211" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="632.74" y="470" as="sourcePoint" />
+            <mxPoint x="637.2561290322581" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="191" y="290" as="sourcePoint" />
+            <mxPoint x="347" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-22" value="(3) 发出硬中断请求" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
