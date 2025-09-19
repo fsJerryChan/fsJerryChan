@@ -19,9 +19,6 @@
         <mxCell id="ksshLI_qjhb9a61c7QR1-5" value="客户端" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
           <mxGeometry x="50" y="120" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ksshLI_qjhb9a61c7QR1-6" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="1">
-          <mxGeometry x="720" y="770" width="52" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="470" as="sourcePoint" />
@@ -88,15 +85,32 @@
         <mxCell id="ksshLI_qjhb9a61c7QR1-24" value="(4) 停止当前内核/用户态调度" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="310" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ksshLI_qjhb9a61c7QR1-27" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+        <mxCell id="ksshLI_qjhb9a61c7QR1-29" value="网卡驱动" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_node.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="95.5" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="345" y="370" as="sourcePoint" />
-            <mxPoint x="345" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="385" y="370" />
-              <mxPoint x="385" y="460" />
-            </Array>
+            <mxPoint x="762.74" y="470" as="sourcePoint" />
+            <mxPoint x="767.2561290322581" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="400" as="sourcePoint" />
+            <mxPoint x="760" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-32" value="(5) 执行ISR，即网卡驱动" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762" y="450" as="sourcePoint" />
+            <mxPoint x="630" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-34" value="(5) 发起软中断" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
