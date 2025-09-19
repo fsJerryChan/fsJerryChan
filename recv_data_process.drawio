@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ksshLI_qjhb9a61c7QR1-1" value="CPU" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.cpu;" vertex="1" parent="1">
-          <mxGeometry x="320" y="110" width="50" height="50" as="geometry" />
+          <mxGeometry x="320" y="100" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-2" value="网卡" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/NetworkInterfaceCard.svg;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="44" height="50" as="geometry" />
+          <mxGeometry x="170" y="100" width="44" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-3" value="OS 内核" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
           <mxGeometry x="610" y="114" width="50" height="46" as="geometry" />
@@ -20,7 +20,28 @@
           <mxGeometry x="50" y="120" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ksshLI_qjhb9a61c7QR1-6" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="1">
-          <mxGeometry x="730" y="114" width="52" height="62" as="geometry" />
+          <mxGeometry x="720" y="770" width="52" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="470" as="sourcePoint" />
+            <mxPoint x="64.51612903225805" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189.74" y="470" as="sourcePoint" />
+            <mxPoint x="194.25612903225806" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint x="190" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksshLI_qjhb9a61c7QR1-15" value="(1) 发送数据包" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
