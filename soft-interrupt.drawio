@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="maNNkG_r6z7QPwU_y16h">
-    <mxGraphModel dx="1190" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="963" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jV5T9jbEFJ-V-oeCtexK-3" value="OS 内核" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
-          <mxGeometry x="900" y="154.5" width="50" height="46" as="geometry" />
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-3" value="OS 内核(ksoftirqd进程)" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="154.5" width="50" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-4" value="内存" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.ram;" vertex="1" parent="1">
           <mxGeometry x="760" y="180" width="40" height="19" as="geometry" />
@@ -24,8 +24,8 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-14" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="927" y="524.5" as="sourcePoint" />
-            <mxPoint x="927.2561290322581" y="224.5" as="targetPoint" />
+            <mxPoint x="1218" y="524.5" as="sourcePoint" />
+            <mxPoint x="1218.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-19" value="网卡驱动" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_node.svg;" vertex="1" parent="1">
@@ -40,11 +40,33 @@
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1058" y="270" as="sourcePoint" />
-            <mxPoint x="925" y="270" as="targetPoint" />
+            <mxPoint x="1220" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-24" value="(6) 发起软中断" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="240" width="120" height="30" as="geometry" />
+          <mxGeometry x="1080" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-25" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="300" as="sourcePoint" />
+            <mxPoint x="1220" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="300" />
+              <mxPoint x="1240" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-26" value="(7) net_rx_action" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1218" y="390" as="sourcePoint" />
+            <mxPoint x="1058" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-28" value="(7) 调用网卡驱动的 Poll 函数" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="360" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
