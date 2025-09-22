@@ -12,13 +12,13 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1372" y="600" as="sourcePoint" />
+            <mxPoint x="1372" y="650" as="sourcePoint" />
             <mxPoint x="1372.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-14" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1218" y="600" as="sourcePoint" />
+            <mxPoint x="1218" y="650" as="sourcePoint" />
             <mxPoint x="1218.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -27,7 +27,7 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-20" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1057" y="600" as="sourcePoint" />
+            <mxPoint x="1057" y="650" as="sourcePoint" />
             <mxPoint x="1057.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -79,7 +79,7 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-33" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1510" y="600" as="sourcePoint" />
+            <mxPoint x="1510" y="650" as="sourcePoint" />
             <mxPoint x="1509.756129032258" y="229" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -100,7 +100,7 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-38" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1653" y="600" as="sourcePoint" />
+            <mxPoint x="1653" y="650" as="sourcePoint" />
             <mxPoint x="1653" y="228" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -116,6 +116,28 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-41" value="(11) 协议栈处理，并写入 Socket 缓冲区" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1530" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="590" as="sourcePoint" />
+            <mxPoint x="1650" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-43" value="(12) 唤醒进程或者发送 SIGIO 信号" style="text;strokeColor=none;align=center;fillColor=default;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="555" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-44" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1654" y="600" as="sourcePoint" />
+            <mxPoint x="1654" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1674" y="600" />
+              <mxPoint x="1674" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-45" value="(13) 读取socket缓冲区数据，继续执行业务逻辑" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="610" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
