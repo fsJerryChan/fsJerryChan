@@ -71,6 +71,27 @@
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-30" value="(9) 从内存读取数据包，并处理" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="406" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-31" value="IP / TCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="164" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-32" value="协议栈" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="200.5" width="60" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-33" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="520" as="sourcePoint" />
+            <mxPoint x="1509.756129032258" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="480" as="sourcePoint" />
+            <mxPoint x="1510" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-35" value="&lt;font&gt;(10) 调用&amp;nbsp;&lt;code style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px; color: rgb(36, 41, 47); text-align: left;&quot;&gt;napi_gro_receive&lt;/code&gt;&lt;code style=&quot;padding: 0.2em 0.4em; margin: 0px; border-radius: 6px; color: rgb(36, 41, 47); text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot;&gt;，最终数据会进入协议栈处理&lt;/font&gt;&lt;/code&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=default;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="446" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
