@@ -12,13 +12,13 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1372" y="524.5" as="sourcePoint" />
+            <mxPoint x="1372" y="570" as="sourcePoint" />
             <mxPoint x="1372.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-14" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1218" y="524.5" as="sourcePoint" />
+            <mxPoint x="1218" y="570" as="sourcePoint" />
             <mxPoint x="1218.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -27,7 +27,7 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-20" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1057" y="524.5" as="sourcePoint" />
+            <mxPoint x="1057" y="570" as="sourcePoint" />
             <mxPoint x="1057.256129032258" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -79,8 +79,8 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-33" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1510" y="520" as="sourcePoint" />
-            <mxPoint x="1509.756129032258" y="225" as="targetPoint" />
+            <mxPoint x="1510" y="570" as="sourcePoint" />
+            <mxPoint x="1509.756129032258" y="229" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -91,6 +91,31 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-35" value="&lt;font&gt;(10) 调用&amp;nbsp;&lt;code style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px; color: rgb(36, 41, 47); text-align: left;&quot;&gt;napi_gro_receive&lt;/code&gt;&lt;code style=&quot;padding: 0.2em 0.4em; margin: 0px; border-radius: 6px; color: rgb(36, 41, 47); text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot;&gt;，最终数据会进入协议栈处理&lt;/font&gt;&lt;/code&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=default;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="446" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-36" value="Socket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="164" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-37" value="用户进程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="200.5" width="60" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-38" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1653" y="570" as="sourcePoint" />
+            <mxPoint x="1653" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-40" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="500" as="sourcePoint" />
+            <mxPoint x="1510" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1530" y="500" />
+              <mxPoint x="1530" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jV5T9jbEFJ-V-oeCtexK-41" value="(11) 协议栈处理，并写入 Socket 缓冲区" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="510" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
