@@ -64,12 +64,12 @@
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1060" y="430" as="sourcePoint" />
-            <mxPoint x="1370" y="430" as="targetPoint" />
+            <mxPoint x="1060" y="436" as="sourcePoint" />
+            <mxPoint x="1370" y="436" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jV5T9jbEFJ-V-oeCtexK-30" value="(9) 从内存读取数据包，并处理" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="400" width="120" height="30" as="geometry" />
+          <mxGeometry x="1080" y="406" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
