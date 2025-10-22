@@ -63,8 +63,8 @@
             <mxPoint x="-2" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjwtmvMxZpDeh4qenirL-17" value="&lt;font&gt;2、&lt;span style=&quot;white-space: pre; background-color: rgb(255, 255, 254);&quot;&gt;A&amp;amp;P&amp;nbsp;方案书变化明细表 存在，在 TPM 的费用使用区域 的数据中不存在，是否需要分拆？&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="500" width="740" height="30" as="geometry" />
+        <mxCell id="HjwtmvMxZpDeh4qenirL-17" value="&lt;div style=&quot;line-height: 160%;&quot;&gt;&lt;font&gt;2、在&amp;nbsp;&lt;span style=&quot;white-space: pre; background-color: rgb(255, 255, 254);&quot;&gt;A&amp;amp;P&amp;nbsp;方案书变化明细表 存在，但在 TPM 的费用使用区域 数据中不存在的 A&amp;amp;P 当月费用，是否需要包含在分拆结果中？&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;3、费用使用区域表 中，是否会存在，同一个方案书，所有 region_amount 都为 0 的情况？&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;4、同一个月、同一个方案书的数据，会否同时出现在&lt;font&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;font&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;费用使用区域By方案书、&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;费用使用区域By方案书 中？&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=top;rounded=0;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="670" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
