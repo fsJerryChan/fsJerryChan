@@ -40,6 +40,9 @@
         <mxCell id="HjwtmvMxZpDeh4qenirL-9" value="&lt;div style=&quot;line-height: 200%;&quot;&gt;&lt;font face=&quot;Tahoma&quot;&gt;group by 到 方案书、sku、sub brand、科目。&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="650" y="230" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="HjwtmvMxZpDeh4qenirL-13" value="1、中台的分拆逻辑" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
