@@ -55,13 +55,16 @@
         <mxCell id="HjwtmvMxZpDeh4qenirL-9" value="&lt;div style=&quot;line-height: 200%;&quot;&gt;&lt;font face=&quot;Tahoma&quot;&gt;group by 到 方案书、sku、sub brand、科目。&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="750" y="230" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HjwtmvMxZpDeh4qenirL-13" value="1、中台的分拆逻辑" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="160" width="320" height="30" as="geometry" />
+        <mxCell id="HjwtmvMxZpDeh4qenirL-13" value="1、中台的分拆逻辑是否正确？" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HjwtmvMxZpDeh4qenirL-16" value="方案书状态&lt;div&gt;以“&lt;b&gt;核销&lt;/b&gt;”开头的&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="660" y="395" as="geometry">
             <mxPoint x="-2" y="-3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HjwtmvMxZpDeh4qenirL-17" value="&lt;font&gt;2、&lt;span style=&quot;white-space: pre; background-color: rgb(255, 255, 254);&quot;&gt;A&amp;amp;P&amp;nbsp;方案书变化明细表 存在，在 TPM 的费用使用区域 的数据中不存在，是否需要分拆？&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="740" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
