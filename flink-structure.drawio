@@ -319,6 +319,18 @@
         <mxCell id="Ox152-f2MYrzWKGrdC34-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ResourceManager" vertex="1">
           <mxGeometry height="50" width="120" x="380" y="1754" as="geometry" />
         </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;Dispatcher&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="30" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Lucida Console;" value="Dispatcher 负责接收 Client 提交的 Flink 作业，包括 JAR 包、Job Graph 等，并为每个提交过来的 Flink 作业启动一个 JobMaster。" vertex="1">
+          <mxGeometry height="30" width="860" x="70" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;JobMaster&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="31" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Lucida Console;" value="(1) 提交阶段：&lt;div&gt;&lt;br&gt;&lt;div&gt;JobMaster 接收待执行的 Flink 作业的 JobGraph、JAR 包，然后把 JobGraph 转换为物理层面的 ExecutionGraph。ExecutionGraph 包含该 Flink作业所需执行的 SubTask 信息。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(2) 部署阶段：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JobMaster 向 ResourceManager 请求执行 Flink 作业所需要的 Task Slot 资源。获取足够的 Task Slot 资源后，JobMaster 会将 ExecutionGraph 中的 SubTask 分发到 TaskManager 上的 Task Slot 中运行。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(3) 运行阶段：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JobMaster负责所有需要协调的工作，比如协调Flink作业中的所有SubTask去执行Checkpoint，监控每个SubTask的心跳，获取SubTask的监控指标等信息，并且会对作业执行异常、失败做出响应，负责作业的故障恢复、异常容错等工作。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="860" x="71" y="1980" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
