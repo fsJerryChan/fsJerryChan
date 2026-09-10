@@ -123,7 +123,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="210" width="650" x="380" y="353" as="geometry" />
+          <mxGeometry height="237" width="433" x="380" y="353" as="geometry" />
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JobManager" vertex="1">
           <mxGeometry height="30" width="110" x="400" y="363" as="geometry" />
@@ -133,6 +133,30 @@
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提交、取消、更新作业" vertex="1">
           <mxGeometry height="30" width="130" x="190" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="分发器&lt;div&gt;（Dispatcher）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="395" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="资源管理器&lt;br&gt;&lt;div&gt;（ResourceManager）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="395" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="242" x="546" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JobMaster" vertex="1">
+          <mxGeometry height="30" width="60" x="573" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="作业调度器&lt;div&gt;（Scheduler）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="560" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="检查点协调器&lt;div&gt;（CheckpointCoordinator）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="560" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-21" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.386;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Ox152-f2MYrzWKGrdC34-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-22" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.689;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
