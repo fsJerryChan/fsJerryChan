@@ -7,7 +7,7 @@
         <mxCell id="Ox152-f2MYrzWKGrdC34-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="270" width="393" x="240" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="Rixj9eg3vlpWxrVCu_oC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Flink 的核心组件包括 Client、JobManager、TaskManager；其中 JobManager 是 Master，TaskManager 是 Worker&lt;/font&gt;" vertex="1">
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Flink 的核心组件包括 Client、JobManager、TaskManager；其中 JobManager 是 Master，TaskManager 是 Worker&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="480" x="30" y="20" as="geometry" />
         </mxCell>
         <mxCell id="Rixj9eg3vlpWxrVCu_oC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -178,7 +178,7 @@
         <mxCell id="Ox152-f2MYrzWKGrdC34-25" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.681;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Ox152-f2MYrzWKGrdC34-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ox152-f2MYrzWKGrdC34-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" value="&lt;font&gt;Flink 作业从提交到运行的流程&lt;/font&gt;" vertex="1">
+        <mxCell id="Ox152-f2MYrzWKGrdC34-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;fontStyle=1" value="&lt;font&gt;Flink 作业从提交到运行的流程&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="440" x="30" y="630" as="geometry" />
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-30" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ox152-f2MYrzWKGrdC34-29">
@@ -285,6 +285,12 @@
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Lucida Console;" value="第一步，提交程序代码：编写 Flink 作业的代码后，用户将 Flink 作业提交到 Client 运行。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第二步，提交程序：Client 将代码中用户自定义的数据处理逻辑转为 JobGraph（作业图），JobGraph 是 Flink 集群可以理解的逻辑数据流图。接下来，Client 会将程序代码、JobGraph 等信息提交到 Flink 集群的 Dispatcher（作业分发器）中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第三步，分发程序：Dispatcher 会启动一个 JobMaster 来解析 JobGraph。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第四步，解析程序：JobMaster 将 JobGraph 解析为 ExecutionGraph，ExecutionGraph 是物理层面具有并行度的执行图。有了 ExecutionGraph，JobMaster 就知道执行这个 Flink 程序需要消耗多少资源了。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第五步，申请作业资源：JobMaster 随后会向 ResourceManager（资源管理器）去申请执行这个 Flink 作业所需要的 TaskManager 资源，ResourceManager 随即向资源提供框架（比如 YARN）去申请对应的资源节点。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第六步，启动 TaskManager：ResourceManager 在申请到资源之后，会在这些资源节点上启动 TaskManager。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第七步，注册 Task Slot：TaskManager 启动后会向 ResourceManager 注册自己可用的 Task Slot。Task Slot 是 Flink 中分配的最小粒度，Flink 作业的每个 SubTask 最终会运行在一个 Task Slot 中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第八步，通知提供 Task Slot：ResourceManager 通知 TaskManager 来为当前的 Flink 作业提供可用的 Task Slot。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第九步，提供 Task Slot：TaskManager 会将可以用于运行当前这个 Flink 作业的 Task Slot 告诉 JobMaster。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第十步，提交执行作业：JobManager 将 Flink 作业分发到 TaskManager 上的 Task Slot 执行。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第十一步，作业运行：Flink 的每个 SubTask 都在 TaskManager 上初始化并运行，进行数据处理工作。&lt;/div&gt;" vertex="1">
           <mxGeometry height="370" width="860" x="40" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;fontStyle=1" value="&lt;font&gt;Client&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="31" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Lucida Console;" value="Client 的核心功能是让用户通过 Client 提交 Flink 作业到 &lt;b&gt;本地环境&lt;/b&gt; 或者 &lt;b&gt;集群环境&lt;/b&gt; 运行。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(1) 本地环境：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;通过运行 main() 函数来提交 Flink 作业时，会在当前 JVM 中启动一个 Client 提交运行当前的作业。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(2) 集群环境：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将 Flink 作业代码构建为 JAR 包，然后使用 ./bin/flink run ... 命令来提交。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;./bin/flink run ... 命令会启动一个 Client 将这个 Flink 作业解析并提交到集群中运行，当提交过程结束后，Client 就可以退出了。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="860" x="43" y="1440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
