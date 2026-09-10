@@ -122,6 +122,14 @@
         <mxCell id="Ox152-f2MYrzWKGrdC34-11" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-26" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="704.8" y="300" />
+              <mxPoint x="880" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="237" width="433" x="380" y="353" as="geometry" />
         </mxCell>
@@ -156,6 +164,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-22" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.689;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="上报 Task 状态、监控指标、维护心跳……" vertex="1">
+          <mxGeometry height="30" width="158" x="375" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="部署/停止/取消 Task&lt;div&gt;触发Task执行检查点&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="570" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-25" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.681;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Ox152-f2MYrzWKGrdC34-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
