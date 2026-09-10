@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rixj9eg3vlpWxrVCu_oC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Flink 的核心组件包括 Client、JobManager、TaskManager；其中 JobManager 是 Master，TaskManager 是 Worker&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="440" x="30" y="20" as="geometry" />
+        <mxCell id="Ox152-f2MYrzWKGrdC34-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="230" width="393" x="240" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Flink 的核心组件包括 Client、JobManager、TaskManager；其中 JobManager 是 Master，TaskManager 是 Worker&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="480" x="30" y="20" as="geometry" />
         </mxCell>
         <mxCell id="Rixj9eg3vlpWxrVCu_oC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="260" x="30" y="260" as="geometry" />
@@ -174,6 +177,42 @@
         </mxCell>
         <mxCell id="Ox152-f2MYrzWKGrdC34-25" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.681;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=8 8;" target="Ox152-f2MYrzWKGrdC34-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" value="&lt;font&gt;Flink 作业从提交到运行的流程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-30" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ox152-f2MYrzWKGrdC34-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="编写 Flink 程序代码" vertex="1">
+          <mxGeometry height="40" width="138" x="31" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-37" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ox152-f2MYrzWKGrdC34-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="40" width="90" x="55" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="第一步，提交程序代码" vertex="1">
+          <mxGeometry height="30" width="60" x="31" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-36" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ox152-f2MYrzWKGrdC34-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dispatcher" vertex="1">
+          <mxGeometry height="50" width="120" x="275" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-35" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Ox152-f2MYrzWKGrdC34-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JobMaster" vertex="1">
+          <mxGeometry height="50" width="120" x="470" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ResourceManager" vertex="1">
+          <mxGeometry height="50" width="170" x="445" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="JobManager" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="748" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
