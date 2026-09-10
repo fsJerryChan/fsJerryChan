@@ -33,6 +33,9 @@
         <mxCell id="Rixj9eg3vlpWxrVCu_oC-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用户代码中自定义的数据处理逻辑" vertex="1">
           <mxGeometry height="30" width="100" x="50" y="310" as="geometry" />
         </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-13" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="Ox152-f2MYrzWKGrdC34-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rixj9eg3vlpWxrVCu_oC-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户端&lt;div&gt;（client）&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="90" x="180" y="380" as="geometry" />
         </mxCell>
@@ -115,6 +118,21 @@
           <mxGeometry relative="1" x="-0.0444" as="geometry">
             <mxPoint x="3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-11" edge="1" parent="1" source="Ox152-f2MYrzWKGrdC34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="650" x="380" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JobManager" vertex="1">
+          <mxGeometry height="30" width="110" x="400" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获取作业结果" vertex="1">
+          <mxGeometry height="30" width="76" x="294" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提交、取消、更新作业" vertex="1">
+          <mxGeometry height="30" width="130" x="190" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
