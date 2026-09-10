@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="_ajOIyzuq8wpJihDqyqO">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Flink 的核心组件包括 Client、JobManager、TaskManager；其中 JobManager 是 Master，TaskManager 是 Worker&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="260" x="30" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font&gt;Client&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-8" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="350" />
+              <mxPoint x="90" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="用户程序代码" vertex="1">
+          <mxGeometry height="40" width="90" x="168" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-10" edge="1" parent="1" source="Rixj9eg3vlpWxrVCu_oC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" target="Rixj9eg3vlpWxrVCu_oC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Graph 构建器" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用户代码中自定义的数据处理逻辑" vertex="1">
+          <mxGeometry height="30" width="100" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户端&lt;div&gt;（client）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据流图&lt;div&gt;（dataflow）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="68" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="280" x="370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TaskManager 1" vertex="1">
+          <mxGeometry height="30" width="110" x="370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 1" vertex="1">
+          <mxGeometry height="30" width="50" x="393" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 1" vertex="1">
+          <mxGeometry height="50" width="50" x="393" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="470" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 2" vertex="1">
+          <mxGeometry height="30" width="50" x="483" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 2" vertex="1">
+          <mxGeometry height="50" width="50" x="483" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="560" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 3" vertex="1">
+          <mxGeometry height="30" width="50" x="573" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 3" vertex="1">
+          <mxGeometry height="50" width="50" x="573" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="280" x="740" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TaskManager 2" vertex="1">
+          <mxGeometry height="30" width="110" x="740" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="750" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 4" vertex="1">
+          <mxGeometry height="30" width="50" x="763" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 4" vertex="1">
+          <mxGeometry height="50" width="50" x="763" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="840" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 5" vertex="1">
+          <mxGeometry height="30" width="50" x="853" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 5" vertex="1">
+          <mxGeometry height="50" width="50" x="853" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="76" x="930" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Task Slot 6" vertex="1">
+          <mxGeometry height="30" width="50" x="943" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rixj9eg3vlpWxrVCu_oC-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 6" vertex="1">
+          <mxGeometry height="50" width="50" x="943" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
