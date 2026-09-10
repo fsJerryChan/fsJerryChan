@@ -105,6 +105,17 @@
         <mxCell id="Rixj9eg3vlpWxrVCu_oC-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Task 6" vertex="1">
           <mxGeometry height="50" width="50" x="943" y="150" as="geometry" />
         </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="650" y="144.5" as="sourcePoint" />
+            <mxPoint x="740" y="144.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-7" connectable="0" parent="Ox152-f2MYrzWKGrdC34-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="数据流" vertex="1">
+          <mxGeometry relative="1" x="-0.0444" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
