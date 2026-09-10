@@ -268,6 +268,21 @@
         <mxCell id="Ox152-f2MYrzWKGrdC34-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="第六步，启动TaskManager&lt;div&gt;第七步，注册 Task Slot&lt;/div&gt;&lt;div&gt;第八步，通知提供 Task Slot&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="710" y="738" as="geometry" />
         </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ox152-f2MYrzWKGrdC34-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="721.5" y="852.5" as="sourcePoint" />
+            <mxPoint x="681.5" y="892.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="910" as="sourcePoint" />
+            <mxPoint x="720" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ox152-f2MYrzWKGrdC34-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="第九步，提供Task Slot&lt;div&gt;第十步，提交执行作业&lt;/div&gt;&lt;div&gt;第十一步，作业运行&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="158" x="669" y="920" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
